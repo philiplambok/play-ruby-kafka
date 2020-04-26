@@ -1,24 +1,21 @@
-# README
+## play-ruby-kafka
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Learning how to implement kafka with [Phobos](https://github.com/phobos/phobos).
 
-Things you may want to cover:
+You can add queues, and see the list of saved messages.
 
-* Ruby version
+### API
 
-* System dependencies
+### Add queues
 
-* Configuration
+- URL `POST /api/queues`
+- Params
+  ```json
+  {
+    "payload": "Sample payload"
+  }
+  ```
 
-* Database creation
+### List of Messages
+- URL `GET /api/messages`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
